@@ -1,0 +1,151 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.navigation {
+    background: rgba(25, 23, 24, 1);
+}
+
+.navigation #menu {
+    width: 107px;
+}
+
+.navigation #menu li button {
+    width: 107px;
+    height: 31px;
+}
+
+.navigation #menu li button {
+    text-align: left;
+    padding-left: 11px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(92, 92, 92, 1);
+    background: rgba(25, 23, 24, 1);
+}
+
+.navigation #menu li button:hover {
+    background: rgba(92, 92, 92, 1);
+}
+
+.navigation #menu li button:hover a {
+    color: #ffffff;
+}
+
+.navigation #menu li button a {
+    text-decoration: none;
+    color: rgba(92, 92, 92, 1);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 129px;
+    margin-right: 129px;
+}
+
+.main-content .logo {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.main-content .logo img {
+    width: 240px;
+    height: auto;
+}
+
+.main-content .content {
+    position: relative;
+    margin-top: 30px;
+    background: rgba(239, 239, 239, 1);
+}
+
+.main-content .content .para {
+    padding: 27px 192px 27px 192px;
+}
+
+.content h1 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.content p {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.all-section {
+    margin-top: 28px;
+    display: flex;
+}
+
+.all-section h2 {
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section-1, .section-2, .section-3 {
+    width: 335px;
+    flex: 1;
+}
+
+.section-2 {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.section-1 p, .section-2 p, .section-3 p, .section-content p {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section-content {
+    display: flex;
+
+}
+
+.section-content img {
+    width: 91px;
+    height: auto;
+    margin-right: 3px;
+}
+
+.footer-main-content {
+    margin-top: 151px;
+    border-top: 2px solid rgba(239, 239, 239, 1);
+    width: 100%;
+}
+
+.footer-main-content p {
+    color: rgba(92, 92, 92, 1);
+    margin: 21px;
+}
